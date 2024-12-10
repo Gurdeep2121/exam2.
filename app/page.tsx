@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <>
+    Date: 12/9/2024
      <h1 className="m-8 text-orange-400 text-4xl font-bold underline text-center">Acc 343 Exam 2</h1>
        <p className='m-5 text-blue-600 text-2xl pb-4 pl-4'>Welcome to the ultimate gathering spot for New York Knicks fans! Whether you are a die hard fan from the days of Ewing and Starks or a newcomer drawn in by the excitement of todays squad, you have found your new home court. This fan page is your go to destination for everything Knicks from in depth analysis and latest game recaps to fan discussions and exclusive content.</p>
        <p className='mx-10 my-2 text-green-700 text-2xl pb-2'>An Overview of Our Fan Page: </p>
