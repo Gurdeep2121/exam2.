@@ -2,34 +2,35 @@ export default function Page() {
   return (
     <>
   
-    <h1 className="text-4xl ml-5">Knicks Fans Ticket Holiday Giveaway Form</h1>
-    <h2 className="text-2xl ml-5">The best New York Knicks fan page is giving 4 holiday Knicks front row tickets to one lucky winner! Please fill out the form below to enter for a chance to win.</h2>
-    <h3 className="text-xl ml-5">Contact Information:</h3>
+    <h1 className="m-8 text-red-600 text-4xl font-bold underline text-center">Knicks Fans Ticket Holiday Giveaway Form: Final Exam</h1>
+    <h2 className="mx-10 my-4 font-bold text-green-700 text-2xl pb-2">The best New York Knicks fan page is giving 4 holiday Knicks front row tickets to one lucky winner! Please fill out the form below to enter for a chance to win.</h2>
+    <h3 className="mx-5 my-2 font-bold underline text-orange-600 text-2xl">Contact Information:</h3>
     <form>
-      <label htmlFor="product" className="ml-5">First Name: *</label>
-      <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
+      <label htmlFor="product" className="mx-5 my-2 font-bold text-blue-800">First Name: *</label>
+      <input type="text" name="product" id="product" className="m-5 text-black bg-gray-200"/>
       <br />
-      <label htmlFor="product" className="ml-5">Middle Name:</label>
-      <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
+      <label htmlFor="product" className="mx-5 my-2 font-bold text-blue-800">Middle Name:</label>
+      <input type="text" name="product" id="product" className="m-5 text-black bg-gray-200"/>
       <br />
-      <label htmlFor="product" className="ml-5">Last Name: *</label>
-      <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
+      <label htmlFor="product" className="mx-5 my-2 font-bold text-blue-800">Last Name: *</label>
+      <input type="text" name="product" id="product" className="m-5 text-black bg-gray-200"/>
       <br />
-      <label htmlFor="product" className="ml-5">Phone Number: *</label>
-      <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
+      <label htmlFor="product" className="mx-5 my-2 font-bold text-blue-800">Phone #: *</label>
+      <input type="text" name="product" id="product" className="m-5 text-black bg-gray-200"/>
       <br />
-      <label htmlFor="product" className="ml-5">Email: *</label>
-      <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
+      <label htmlFor="product" className="mx-5 my-2 font-bold text-blue-800">Email: *</label>
+      <input type="text" name="product" id="product" className="m-5 text-black bg-gray-200"/>
       <br />
 
-      <label htmlFor="game" className="mx-5">Choose a game:</label>
+      <label htmlFor="game" className="mx-5 my-2 font-bold underline text-orange-600 text-2xl">Choose a game:</label>
       <select name="game" id="game">
+      
       <option value="Christmas">Christmas Day Game vs Spurs</option>
       <option value="New Year">New Year Day Game vs Jazz</option>
       </select>
 
       <br />
-      <h4 className="text-xl ml-5">Question 1: Who is the only Knick to have ever won a regular season MVP? </h4> 
+      <h4 className="mx-5 my-1 font-bold text-blue-800">Question 1: Who is the only Knick to have ever won a regular season MVP? </h4> 
       <div className="ml-5 mt-5">
       <input type="radio" id="Wilis Reed" name="fav_language" value="Willis Reed" />
       <label htmlFor="Willis Reed"> Willis Reed</label><br />
@@ -42,7 +43,7 @@ export default function Page() {
       </div>
     
       <br />
-      <h4 className="text-xl ml-5">Question 2: Which current Knick has won the NBA three point competition?  </h4> 
+      <h4 className="mx-5 my-1 font-bold text-blue-800">Question 2: Which current Knick has won the NBA three point competition?  </h4> 
       <div className="ml-5 mt-5">
       <input type="radio" id="Wilis Reed" name="fav_language" value="Willis Reed" />
       <label htmlFor="Willis Reed"> Jalen Brunson</label><br />
@@ -55,7 +56,7 @@ export default function Page() {
       </div>
       <br />
 
-      <h4 className="text-xl ml-5">Question 3: When referencing DFG% as the metric to assess defensive performance, which current Knicks player is statistically the best defensive player for the 2024-25 season? </h4> 
+      <h4 className="mx-5 my-1 font-bold text-blue-800">Question 3: When referencing DFG% as the metric to assess defensive performance, which current Knicks player is statistically the best defensive player for the 2024-25 season? </h4> 
       <div className="ml-5 mt-5">
       <input type="radio" id="html" name="fav_language" value="html" />
       <label htmlFor="Willis Reed"> Karl Anthony-Towns</label><br />
@@ -67,7 +68,7 @@ export default function Page() {
       <label htmlFor="css"> Josh Hart</label>
       </div>
       <br />
-      <h4 className="text-xl ml-5">Question 4: Select ALL the players that won the NBA slam dunk contest while playing for the New York Knicks: </h4> 
+      <h4 className="mx-5 my-1 font-bold text-blue-800">Question 4: Select ALL the players that won the NBA slam dunk contest while playing for the New York Knicks: </h4> 
       <div className="ml-5 mt-5">
       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
       <label htmlFor="vehicle1"> James White</label><br />
@@ -82,7 +83,7 @@ export default function Page() {
       </div>
       <br />
 
-      <h4 className="text-xl ml-5">Question 5: Select ALL the players in the Knicks starting lineup that were on the roster during the 2023-24 season: </h4> 
+      <h4 className="mx-5 my-1 font-bold text-blue-800">Question 5: Select ALL the players in the Knicks starting lineup that were on the roster during the 2023-24 season: </h4> 
       <div className="ml-5 mt-5">
       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
       <label htmlFor="vehicle1"> Jalen Brunson</label><br />
