@@ -42,7 +42,7 @@ export default function Page() {
       </div>
     
       <br />
-      <h4 className="text-xl ml-5">Question 2: Which current Knick has won the NBA's three point competition?  </h4> 
+      <h4 className="text-xl ml-5">Question 2: Which current Knick has won the NBA three point competition?  </h4> 
       <div className="ml-5 mt-5">
       <input type="radio" id="Wilis Reed" name="fav_language" value="Willis Reed" />
       <label htmlFor="Willis Reed"> Jalen Brunson</label><br />
